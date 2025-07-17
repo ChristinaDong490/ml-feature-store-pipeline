@@ -5,32 +5,32 @@ This project demonstrates how to design a Feature Store using [Feast](https://fe
 ---
 
 ## Project Structure
-ml-feature-store-pipeline/
-├── data/ # Raw and generated feature datasets
-│ ├── athletes.csv # Original dataset
-│ ├── athletes_clean.csv # Cleaned version
-│ ├── feature_v1.csv # Feature version 1
-│ ├── feature_v2.csv # Feature version 2
-│ └── athletes_clean.parquet # Parquet version for Feast ingestion
-│
-├── feature/ # Feature store configuration
-│ └── athlete_feature_store/
-│ └── feature_repo/ # Feast repo (features.py, config, etc.)
-│ ├── athlete_features.py
-│ ├── feature_store.yaml
-│ └── ...
-│
-├── pipeline/ # ML and data generation notebooks
-│ ├── clean_data.ipynb
-│ ├── generate_feature_v1.ipynb
-│ ├── generate_feature_v2.ipynb
-│ ├── ml_pipeline.ipynb
-│ └── emissions_log/ # Emission logs from CodeCarbon
-│
-├── feast.png # Screenshot of feature registry
-├── experiments.png # Screenshot of experiment results
-├── carbon_emission.png # Screenshot of carbon tracking
-└── README.md # Project documentation
+ml-feature-store-pipeline/  
+├── data/ # Raw and generated feature datasets  
+│ ├── athletes.csv # Original dataset  
+│ ├── athletes_clean.csv # Cleaned version  
+│ ├── feature_v1.csv # Feature version 1  
+│ ├── feature_v2.csv # Feature version 2  
+│ └── athletes_clean.parquet # Parquet version for Feast ingestion  
+│  
+├── feature/ # Feature store configuration  
+│ └── athlete_feature_store/  
+│ └── feature_repo/ # Feast repo (features.py, config, etc.)  
+│ ├── athlete_features.py  
+│ ├── feature_store.yaml  
+│ └── ...  
+│  
+├── pipeline/ # ML and data generation notebooks  
+│ ├── clean_data.ipynb  
+│ ├── generate_feature_v1.ipynb  
+│ ├── generate_feature_v2.ipynb  
+│ ├── ml_pipeline.ipynb  
+│ └── emissions_log/ # Emission logs from CodeCarbon  
+│  
+├── feast.png # Screenshot of feature registry  
+├── experiments.png # Screenshot of experiment results  
+├── carbon_emission.png # Screenshot of carbon tracking  
+└── README.md # Project documentation  
 
 ---
 
